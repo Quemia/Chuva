@@ -1,0 +1,81 @@
+<div class="Container">
+  <app-toolbar></app-toolbar>
+
+  <div class="scrolls-content">
+    <!-- Header -->
+    <div class="header-class">
+      <!-- Text -->
+      <div class="header-container">
+        <p class="header-text">
+          Anais do Simpósio Latino Americano de Ciências de Alimentos
+        </p>
+        <h4 class="header-title">
+          Anais do 13º Simpósio Latino Americano de Ciência de Alimentos
+        </h4>
+        <p class="header-text">ISSN: 1234-5678</p>
+      </div>
+
+      <!-- language button -->
+      <div class="dropdown-button">
+        <button type="dropdown" class="header-button">
+          <img src="../assets/language image.png" class="button-image" />
+          PT, BR
+          <i
+            ><span class="material-symbols-outlined"> arrow_drop_down </span></i
+          >
+        </button>
+      </div>
+
+      <!-- Login -->
+      <div class="login-container">
+        <div class="login-content-text">
+          <p class="login-text-welcome">Bem vindo!</p>
+          <p class="login-text-email">{{ emailLogin }}</p>
+        </div>
+        <img class="login-avatar" alt="avatar" src="../assets/image.png" />
+      </div>
+    </div>
+
+    <div class="content">
+      <!-- header content -->
+      <div class="content-header">
+        <h2 class="content-title">
+          {{ title }}
+        </h2>
+
+        <div class="button-text-class">
+          <div class="button-content-header">
+            <button class="download-button">
+              <img class="image-download-button" src="../assets/.png" />
+              Donwload
+            </button>
+            <button class="favorite-button">
+              <img class="image-fav-button" src="../assets/favoritar.png" />
+            </button>
+            <button class="doi-button">
+              <img class="image-doi-button" src="../assets/doi.png" />
+            </button>
+          </div>
+          <p class="text-citacao">COMO CITAR ESSE TRABALHO?</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <!-- Presentation + Details -->
+      <app-presentation></app-presentation>
+
+      <!-- resume -->
+      <app-resume></app-resume>
+
+      <!-- <app-newcomment></app-newcomment> -->
+      <!-- discussions -->
+      <app-discussions></app-discussions>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <img src="../assets/footer.png" alt="footer-galoa" class="footer-img" />
+    </footer>
+  </div>
+</div>

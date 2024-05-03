@@ -1,0 +1,138 @@
+.discussions-container {
+  width: 1058px;
+  margin: 30px 44px;
+
+  border: 1px solid #ececec;
+  border-radius: 5px;
+}
+
+.discussions-content {
+  display: block;
+  margin: 0 210px;
+
+  text-align: center;
+  position: relative;
+}
+
+.discussions-share-text {
+  color: #ed7839;
+  font: normal 700 18px/21.09px "Roboto";
+}
+
+.discussions-icon {
+  width: 48.94;
+  height: 50.26px;
+  margin-right: 51.74px;
+}
+
+.discussions-text {
+  color: #595959;
+  font: normal 400 14px/19.25px "Quicksand";
+  margin-bottom: 30px;
+}
+
+.btn-create-topic {
+  background-color: #ed7839;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+
+  color: #fff;
+  cursor: pointer;
+  font: normal 700 15px/16px "Quicksand";
+  letter-spacing: 0.02em;
+  
+  width: 133px;
+  height: 32px;
+  margin: -15px 40% 20px 40%;
+
+  z-index: 1;
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-image {
+  height: 17px;
+  width: 17px;
+  margin-right: 6px;
+}
+
+.line {
+  width: 1027px;
+  border: 1px solid #e7e7e7;
+}
+
+.dis-title-content {
+  width: auto;
+  height: 45px;
+  
+  background-color: #fdf1eb;
+  border-bottom: 1px solid #ececec;
+  
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.dis-title {
+  font: normal 500 20px/25px "Roboto";
+  margin-left: 15px;
+  color: #4e4e4e;
+}
+
+////////////////////
+// CARD COMMENT
+.answered-topic {
+  width: 1028;
+  height: 148px;
+
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  
+  display: block;
+  margin: 40px 15px 15px 15px;
+  padding: 17px 24px;
+}
+
+.ops-topic-subject {
+  font: normal 700 16px/20px "Quicksand";
+  color: #ed7839;
+}
+
+.ops-topic-author {
+  font: normal 500 12px/15px "Quicksand";
+  color: #5c5c5c;
+  margin-top: -15px;
+}
+
+.comments-container {
+  font: normal 400 14px/17.5px "Quicksand";
+  color: #4d4d4d;
+}
+
+.comment-options {
+  display: flex;
+  align-items: center;
+}
+
+.icon-favorite {
+  width: 27px;
+  height: 19px;
+  margin: 0 15px;
+}
+
+.icon-informations {
+  width: 4px;
+  height: 18px;
+}
+
+.options-text {
+  width: auto;
+  margin: 0 15px 0 0;
+
+  font: normal 350 14px/18.62px "Quicksand";
+  color: #757575;
+}

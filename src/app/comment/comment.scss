@@ -1,0 +1,180 @@
+.form-content {
+  height: 245px;
+  margin: 15px;
+
+  border: transparent;
+  display: block;
+}
+
+.form-text-content {
+  width: 965px;
+  height: 18px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.form-text {
+  font: normal 400 14px/17.5px "Quicksand";
+  color: #5c5c5c;
+  text-align: center;
+}
+
+.form-label {
+  font: normal 700 16px/18.75px "Roboto";
+  color: #ed7839;
+  margin-bottom: 1px;
+}
+
+.subject {
+  width: 1025px;
+  height: 39px;
+
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+.content {
+  width: 1025px;
+  height: 113px;
+
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.btn-form {
+  width: 1029px;
+  height: 31px;
+  margin-top: 84px;
+
+  background-color: #eaf1f2;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+
+  position: absolute;
+  z-index: 1;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-topic {
+  width: 205.1px;
+  height: 31px;
+  position: absolute;
+  z-index: 2;
+
+  background-color: #ed7839;
+  border: transparent;
+  border-bottom-right-radius: 4px;
+
+  font: normal 700 15px/16px "Quicksand";
+  color: #fff;
+  cursor: pointer;
+}
+///////////////
+///
+.topic-container {
+  width: 1045px;
+  margin: auto;
+}
+
+.topic-content {
+  display: block;
+  text-align: center;
+}
+
+.topic-title {
+  font: normal 700 18px/21.09px "Roboto";
+  color: #ed7839;
+}
+
+.topic-text {
+  font: normal 400 14px/19.25px "Quicksand";
+  color: #595959;
+}
+
+.btn-new-articles {
+  background-color: transparent;
+  border: transparent;
+  color: #f48f44;
+  cursor: pointer;
+
+  font: normal 700 15px/16px "Quicksand";
+  letter-spacing: 0.02em;
+
+  width: 306.2px;
+  height: 20px;
+  margin: 29px 0 48px 0;
+}
+
+.btn-new-topic {
+  background-color: #ed7839;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  color: #fff;
+  font: normal 700 15px/16px "Quicksand";
+  letter-spacing: 0.02em;
+
+  width: 235.15px;
+  height: 32px;
+
+  z-index: 1;
+  position: absolute;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+
+  display: block;
+  margin: -9px 31% 0 31%;
+}
+
+.line {
+  border: 1px solid #e7e7e7;
+  margin: 10px;
+  width: 1027px;
+}
+
+.feedback-content {
+  width: 1028px;
+  height: 148px;
+
+  background-image: url("../../assets/bg-group.png");
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+
+  margin-top: 28px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.img-feedback {
+  width: 20px;
+  height: 20px;
+  margin: 35px 50% 7px 50%;
+}
+
+.feedback-title {
+  width: 414.29px;
+  height: 20px;
+  margin: 7px auto;
+
+  font: normal 700 16px/20px "Quicksand";
+  color: #707070;
+}
+
+.btn-edit-topic {
+  width: 122.91px;
+  height: 19px;
+
+  font: normal 700 14px/18.62px "Quicksand";
+  color: #ed7839;
+  cursor: pointer;
+
+  background-color: transparent;
+  border: 1px solid #ed7839;
+  border-color: transparent transparent rgb(327, 120, 57) transparent;
+}

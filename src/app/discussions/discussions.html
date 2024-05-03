@@ -1,0 +1,75 @@
+<!-- discussions -->
+<div class="discussions-container">
+  <div class="dis-title-content">
+    <h3 class="dis-title">Discussões</h3>
+  </div>
+
+  <div class="discussions-content" *ngIf="beforeComent">
+    <h3 class="discussions-share-text">
+      Compartilhe suas ideias ou dúvidas com os autores!
+    </h3>
+    <div>
+      <img
+        class="discussions-icon"
+        alt="icon-ideias"
+        src="../assets/icone1.png"
+      />
+      <img
+        class="discussions-icon"
+        alt="icon-coversa"
+        src="../assets/icone2.png"
+      />
+      <img
+        class="discussions-icon"
+        alt="icon-troca"
+        src="../assets/icone3.png"
+      />
+    </div>
+    <p class="discussions-text">
+      Sabia que o maior estímulo no desenvolvimento científico e cultural é a
+      curiosidade? Deixe seus questionamentos ou sugestões para o autor!
+    </p>
+
+    <button class="btn-create-topic" (click)="commentForm()">
+      <img class="add-image" src="../assets/icon-criar.png" />
+      criar tópico
+    </button>
+  </div>
+
+  <app-comment *ngIf="FormComment"></app-comment>
+  <hr class="line" />
+
+  <!-- --------- -->
+  <!-- CARD -->
+  <div class="answered-topic">
+    <p class="ops-topic-subject">{{ cardTitle }}</p>
+    <p class="ops-topic-author">{{ cardAuthor }}</p>
+    <p class="comments-container">{{ cardComment }}</p>
+    <div class="comment-options">
+      <img
+        class="icon-informations"
+        alt="mais informações"
+        src="../assets/mais-informações.png"
+      />
+      <img class="icon-favorite" alt="favoritar" src="../assets/fav.png" />
+      <p class="options-text">1 like</p>
+      <p class="options-text">1 resposta</p>
+    </div>
+  </div>
+
+  <div class="answered-topic">
+    <p class="ops-topic-subject">{{ cardTitle }}</p>
+    <p class="ops-topic-author">{{ cardAuthor }}</p>
+    <p class="comments-container">{{ cardComment }}</p>
+    <div class="comment-options">
+      <img
+        class="icon-informations"
+        alt="mais informações"
+        src="../assets/mais-informações.png"
+      />
+      <img class="icon-favorite" alt="favoritar" src="../assets/fav.png" />
+      <p class="options-text">1 like</p>
+      <p class="options-text">1 resposta</p>
+    </div>
+  </div>
+</div>

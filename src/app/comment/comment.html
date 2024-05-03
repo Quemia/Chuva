@@ -1,0 +1,21 @@
+<form class="form-content" *ngIf="beforeNewComent">
+  <div class="form-text-content">
+    <p class="form-text">
+      Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!
+    </p>
+  </div>
+  <p class="form-label">Assunto</p>
+  <input
+    class="subject"
+    placeholder="Defina um tópico sucinto para notificar os autores..."
+  />
+
+  <p class="form-label">Conteúdo</p>
+  <input class="content" />
+
+  <div class="btn-form">
+    <button class="btn-topic" (click)="newComment()">Enviar</button>
+  </div>
+</form>
+
+<app-newcomment *ngIf="newcomment"></app-newcomment>
