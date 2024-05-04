@@ -39,8 +39,18 @@ Para rodar a UI de testes
 npx cypress open --env type=base
 ```
 
+### Resultados do cypress
+![Screenshot_20240501_185325](https://github.com/Quemia/Chuva/assets/55935949/00246f0a-d5dc-44a3-a33a-dad4eef196b8)
+![Screenshot_20240501_185342](https://github.com/Quemia/Chuva/assets/55935949/07aadf0c-3a0f-4a72-a315-040a35b9812f)
+
+
+
+
 ### Dicas de resolução
 
 Pra facilitar sua vida, nosso repositório já vem com pronto pra consumo, e mesmo que você não for familiar com o Angular ou Typescript, dá pra só colocar o html e o scss nos arquivos corretos, e vai funcionar (inclusive os testes automatizados vão passar).
 
 Não esqueca de commitar os screenshots que o cypress gera, utilizaremos eles na correção do exercício.
+
+
+
